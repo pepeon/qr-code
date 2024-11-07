@@ -1,0 +1,37 @@
+body{
+    box-sizing: content-box;
+}
+.input{
+    outline: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.btn{
+    width: 200px;
+    background-color: rgb(167, 167, 240);
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.btn:hover{
+    background-color: rgb(62, 62, 233);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+.qrCode{
+    width: 200px;
+    height: 200px;
+}
+.qrCode svg path:last-child  {
+    
+}
